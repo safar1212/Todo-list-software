@@ -1,6 +1,5 @@
 import './style.css';
 
-
 const toDos = [
   {
     discription: 'The first task',
@@ -21,12 +20,12 @@ const toDos = [
     discription: 'The fourth task',
     Completed: false,
     index: 3,
-  }
+  },
 ];
 
 function ListItems() {
   let li = '';
-  const unorderList = document.querySelector("#ul-list");
+  const unorderList = document.querySelector('#ul-list');
   toDos.forEach((item) => {
     const toDos = `
     <li>
@@ -42,7 +41,3 @@ function ListItems() {
   unorderList.innerHTML = li;
 }
 ListItems();
-
-
-
-
