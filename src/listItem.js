@@ -34,4 +34,4 @@ function listItems() {
 
 window.addEventListener('load', listItems);
 
-export { toDos, listItems};
+export { toDos, listItems };
