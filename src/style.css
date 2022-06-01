@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#heading {
+  border: 1px whitesmoke solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+}
+
+#input {
+  border: 1px whitesmoke solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+#input input {
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  border: 1px solid whitesmoke;
+  padding-left: 10px;
+}
+
+#list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#list ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#list ul li {
+  list-style-type: none;
+  border-left: 2px whitesmoke solid;
+  border-right: 2px whitesmoke solid;
+  border-bottom: 2px whitesmoke solid;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#list-items {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+#list-items input {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+#edit i {
+  cursor: pointer;
+}
+
+#clear-all button {
+  width: 400px;
+  height: 60px;
+  background-color: whitesmoke;
+  border: none;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-size: 20px;
+  cursor: pointer;
+}
