@@ -28,10 +28,10 @@ function listItems() {
       return todo;
     });
     localStorage.setItem('todo-list', JSON.stringify(toDos));
-    listItems(toDos);
+    listItems();
   };
 }
 
 window.addEventListener('load', listItems);
 
-export { toDos, listItems };
+export { toDos, listItems};

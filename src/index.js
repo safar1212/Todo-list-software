@@ -30,6 +30,6 @@ inputField.addEventListener('keyup', (e) => {
     inputField.value = '';
 
     localStorage.setItem('todo-list', JSON.stringify(toDos));
-    listItems(toDos);
+    listItems();
   }
 });
