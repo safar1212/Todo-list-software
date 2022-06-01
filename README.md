@@ -4,7 +4,7 @@
 
 ## Live demo
 
-<!-- The website was build using Github Pages: [Live Version](https://safar1212.github.io/Book-keeping-solo-project/) -->
+The website was build using Github Pages: [Live Version](https://safar1212.github.io/Todo-list-software/)
 
 ## Built With
 
@@ -22,7 +22,7 @@
 
 
 
-git clone [https://safar1212.github.io/Book-keeping-solo-project/](https://safar1212.github.io/Book-keeping-solo-project/) <Your-Build-Directory>
+git clone [https://safar1212.github.io/Todo-list-software/](https://safar1212.github.io/Todo-list-software/) <Your-Build-Directory>
 
 ## Getting packages and debuging with Stylelint
 
@@ -49,13 +49,15 @@ npx hint .
 
 - GitHub: [@Safar Ali](https://github.com/safar1212)
 - LinkedIn: [Safar Ali](https://www.linkedin.com/in/safar-ali999/)
+- Twitter: [Safar Ali](https://twitter.com/SafarAli999)
+ 
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/safar1212/Book-keeping-solo-project/issues).
+Feel free to check the [issues page](https://github.com/safar1212/Todo-list-software/issues).
 
 ## Show your support
 
