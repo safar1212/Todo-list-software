@@ -101,6 +101,10 @@ section {
   cursor: pointer;
 }
 
+#ul-list li #list-items label.clicked {
+  text-decoration: line-through;
+}
+
 #edit {
   cursor: pointer;
   position: relative;
