@@ -2,6 +2,8 @@ import './style.css';
 
 import { toDos, listItems } from './listItem.js';
 
+import { clearButton, clearTodos } from './completeAll.js';
+
 const inputField = document.querySelector('#input #input-field');
 
 let editId;
@@ -21,7 +23,7 @@ inputField.addEventListener('keyup', (e) => {
       if (!toDos) {
         toDos = [];
       }
-      const taskInfo = { task: inputLetter, Completed: 'false', index: toDos.length + 1 };
+      const taskInfo = { task: inputLetter, Completed: false, index: toDos.length + 1 };
       toDos.push(taskInfo);
     } else {
       isEditedTask = false;
@@ -32,4 +34,8 @@ inputField.addEventListener('keyup', (e) => {
     localStorage.setItem('todo-list', JSON.stringify(toDos));
     listItems();
   }
+});
+
+clearButton.addEventListener('click', () => {
+  clearTodos(toDos);
 });

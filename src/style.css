@@ -106,6 +106,10 @@ section {
   position: relative;
 }
 
+#ul-list li #list-items label.clicked {
+  text-decoration: line-through;
+}
+
 #edit #delete-box {
   background-color: white;
   position: absolute;
