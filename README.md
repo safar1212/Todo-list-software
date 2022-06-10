@@ -61,7 +61,7 @@ Feel free to check the [issues page](https://github.com/safar1212/Todo-list-soft
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give us a ⭐️ if you like this project!
 
 ## Acknowledgments
 
