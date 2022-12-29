@@ -6,6 +6,15 @@
 
 The website was build using Github Pages: [Live Version](https://safar1212.github.io/Todo-list-software/)
 
+## Images
+
+![2022-12-29_14-07-01](https://user-images.githubusercontent.com/78845635/209929785-5491dc4e-c9fd-4e87-b8d9-11eb82dec619.png)
+
+
+![TodoApp](https://user-images.githubusercontent.com/78845635/209929812-35c64854-75ed-45d3-a21f-64f3c4e12197.png)
+
+
+
 ## Built With
 
 -Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
